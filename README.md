@@ -1,6 +1,7 @@
 Todo:
 
 - figma
+- html formatting
 
 functionality:
 
