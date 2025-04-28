@@ -3,10 +3,19 @@
 * . for class
 */
 
+/* browser reset */
+ul, li
+{
+    padding: 0px; 
+    margin: 0px;
+}
+
 
 body {
     background-color: #F3F3F3;
 }
+
+/* homepage */
 
 #solobutton {
     font-family: "Encode Sans", sans-serif;
@@ -62,10 +71,8 @@ body {
     font-family: "EB Garamond", serif;
 }
 
-.textbox {
-    margin-left: 30px;
-    line-height: 1.6;
-}
+
+/* nav bar */
 
 .nav_links li {
     font-family: "Encode Sans", sans-serif;
@@ -104,6 +111,25 @@ body {
     cursor: pointer;
 }
 
-.musicbox1 {
+/* text */
+
+.textbox {
+    line-height: 1.6;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+}
+
+.duet-box {
+    font-family: "EB Garamond", serif;
     background-color: #D9D9D9;
+    margin: 80px;
+}
+
+.list {
+    list-style-type: none;  
+}
+
+.TOC-header {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
