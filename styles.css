@@ -127,13 +127,7 @@ body {
     
 }
 
-.item1 {
-    background-color: #d9def0;
-}
 
-.item2 {
-    background-color: #F3DADA;
-}
 
 .list {
     list-style-type: none;  
@@ -162,5 +156,26 @@ body {
     margin-right: 40px;
     margin-left: 40px;
     height: 280px;
-    width: 40%;
+    width: 45%;
+}
+
+/* duet box styling */
+.item1 {
+    background-color: #d9def0;
+}
+
+.item2 {
+    background-color: #F3DADA;
+}
+
+.item3 {
+    background-color: #e4e4e4;
+}
+
+.inner-duetbox {
+    height: 400px;
+}
+
+#ghibli {
+    height: 720px;
 }
