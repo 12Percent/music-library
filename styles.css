@@ -224,6 +224,23 @@ body {
   }
 
   .solo-text {
+    font-family: "EB Garamond", serif;
     text-align: center;
     font-size: 120%;
+    margin-bottom: 0;
   }
+
+
+
+  /* ---------- SHEETS ---------- */
+.sheet-text {
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    font-size: 100%;
+    margin-top: 5px;
+}
+
+.pdf {
+    width: 100%;
+    height: 100%;
+}
