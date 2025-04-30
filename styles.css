@@ -127,8 +127,6 @@ body {
     
 }
 
-
-
 .list {
     list-style-type: none;  
 }
@@ -179,4 +177,24 @@ body {
 
 #ghibli {
     height: 720px;
+}
+
+/* solo page styling */
+.period-div {
+    margin: 80px;
+    height: 500px;
+}
+
+.horizontal-solo {
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid;
+}
+
+.solo-videos {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
 }
