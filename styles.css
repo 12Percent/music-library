@@ -15,41 +15,53 @@ body {
     background-color: #F3F3F3;
 }
 
-/* homepage */
+/* ---------- homepage ---------- */
+#index-container {
+    border: 1px solid;
+    height: 150px;
+    width: 100%;
+    margin-top: 5%;
+}
 
-#solobutton {
-    font-family: "Encode Sans", sans-serif;
-    border: none;
-    padding: 0;
-    background-color: #ECE7E7;
-    position: absolute;
-    top: 55%;
-    left: 36%;
-    width: 150px;
+#index-buttons {
+    border: 1px solid purple;
+    margin: 50px;
     height: 31px;
-    cursor: pointer;
-    transition: all 0.3 ease 0s;
-
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 #solobutton:hover {
     background-color: #dfd8d8;
 }
 
+#solobutton {
+    font-family: "Encode Sans", sans-serif;
+    font-size: 80%;
+    border: none;
+    background-color: #ECE7E7;
+    /* position: absolute;
+    top: 55%;
+    left: 36%; */
+    width: 150px;
+    height: 31px;
+
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    float: left;
+
+}
 
 #collabbutton {
     font-family: "Encode Sans", sans-serif;
     font-size: 80%;
     border: none;
-    padding: 0;
     background-color: #F3DADA;
-    position: absolute;
-    top: 55%;
-    left: 53%;
     width: 150px;
     height: 31px;
     cursor: pointer;
     transition: all 0.3 ease 0s;    
+    float: right;
 }
 
 #collabbutton:hover {
@@ -59,12 +71,7 @@ body {
 #mainheading {
     font-weight: normal;
     font-family: "EB Garamond", serif;
-    min-height: 100px;
-    width: 100%;
     text-align: center;
-    position: absolute;
-    left: 0;
-    top: 40%;
 }
 
 .heading {
@@ -82,6 +89,7 @@ body {
 }
 
 .nav_links {
+    border: 1px solid red;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -110,6 +118,8 @@ body {
 .logo {
     cursor: pointer;
 }
+
+
 
 /* text */
 
@@ -192,9 +202,6 @@ body {
 }
 
 .solo-videos {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
     width: 100%;
+    padding: 40px;
 }
