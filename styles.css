@@ -205,7 +205,7 @@ body {
     display: flex;
     column-gap: 6%;
     padding: 50px;
-    height: 600px;
+    height: 400px;
 }
 
 .column {
