@@ -4,6 +4,7 @@ A collection of all the pieces (I have recordings of) that I've played on the pi
 
 ## Todo:
 
+- 5/1: embed pdfs through google drive
 - fix homepage buttons not stacking when screen gets small
 - sheets page
 - photos page
