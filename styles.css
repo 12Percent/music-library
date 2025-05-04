@@ -17,22 +17,36 @@ body {
 
 /* ---------- homepage ---------- */
 #index-container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 150px;
     width: 100%;
     margin-top: 5%;
 }
 
 #index-buttons {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     margin: 50px;
     height: 31px;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 35%;
+    padding-right: 35%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    column-gap: 10%;
+    
 }
 
 #solobutton:hover {
     background-color: #dfd8d8;
+}
+
+.button-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
 
 #solobutton {
@@ -43,12 +57,11 @@ body {
     /* position: absolute;
     top: 55%;
     left: 36%; */
-    width: 150px;
+    width: 100%;
     height: 31px;
 
     cursor: pointer;
     transition: all 0.3 ease 0s;
-    float: left;
 
 }
 
@@ -57,11 +70,10 @@ body {
     font-size: 80%;
     border: none;
     background-color: #F3DADA;
-    width: 150px;
+    width: 100%;
     height: 31px;
     cursor: pointer;
     transition: all 0.3 ease 0s;    
-    float: right;
 }
 
 #collabbutton:hover {
@@ -90,13 +102,25 @@ body {
 }
 
 .nav_links {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    
     margin: .5rem 10rem;
     padding: 50px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1%;
+}
+
+.nav-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
 
 .nav_links a {
@@ -133,6 +157,8 @@ body {
 .duet-box {
     font-family: "EB Garamond", serif;
     margin: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 30px;
     height: 400px;
     
@@ -164,7 +190,7 @@ body {
     float: left;
     margin-right: 40px;
     margin-left: 40px;
-    height: 280px;
+    height: 300px;
     width: 45%;
 }
 
