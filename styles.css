@@ -212,8 +212,23 @@ body {
     padding: 20px;
 }
 
+/* multi-video pieces */
+/* one video is 400px. each new video adds 340. */
+
 #ghibli {
-    height: 720px;
+    height: 740px;
+}
+
+#shost {
+    height: 1420px;
+}
+
+#bigfish {
+    height: 740px;
+}
+
+#ksyo-nimrod {
+    height: 740px;
 }
 
 /* solo page styling */
