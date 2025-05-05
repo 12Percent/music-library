@@ -14,6 +14,7 @@ A collection of all the pieces (I have recordings of) that I've played on the pi
 - back button for all collab subpages
 - for all multi-video pieces, reorder so that rehearsal comes after performance?
 - possible page headers
+- flex with video/text as columns
 
 ### ask caleb:
 
