@@ -10,6 +10,10 @@ ul, li
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 body {
     background-color: #F3F3F3;
@@ -329,7 +333,7 @@ body {
     font-family: "EB Garamond", serif;
     text-align: center;
     font-size: 100%;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .pdf {
