@@ -185,6 +185,15 @@ body {
     margin-top: 15px;
 }
 
+/* page header */
+.header {
+    font-family: "EB Garamond", serif;
+    font-size: 175%;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
 /* yt */
 .yt-embed {
     float: left;
