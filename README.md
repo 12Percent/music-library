@@ -5,7 +5,6 @@ A collection of all the pieces (I have recordings of) that I've played on the pi
 ## Todo:
 
 - fix homepage buttons not stacking when screen gets small
-- song subtitle styling
 - height/width of yt embed
 - about page
 - nav bar needs to be redone
