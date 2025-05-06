@@ -189,9 +189,16 @@ body {
 .header {
     font-family: "EB Garamond", serif;
     font-size: 175%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
     
+}
+
+.collab-redirect {
+    font-family: "EB Garamond", serif;
+    font-size: 80%;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 /* yt */
