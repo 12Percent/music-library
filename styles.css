@@ -352,3 +352,9 @@ body {
 #collab-classical-sheets {
     height: 1250px;
 }
+
+#about-text {
+    font-family: "EB Garamond", serif;  
+    text-align: center;
+    font-size: 100%;
+}
