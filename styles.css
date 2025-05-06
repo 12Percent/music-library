@@ -192,6 +192,7 @@ body {
 }
 
 .song-title {
+    font-family: "EB Garamond", serif;
     font-size: 200%;
     text-align: center;
     margin: 0;
