@@ -282,7 +282,6 @@ body {
     margin-top: 10px;
   }
 
-
   #romantic {
     height: 1250px;
   }
@@ -296,6 +295,20 @@ body {
 
 
   /* ---------- SHEETS PAGE ---------- */
+.sheets-div {
+    padding-top: 40px;
+    margin: 50px;
+    height: 670px;
+}
+
+.sheets-row {
+    display: flex;
+    column-gap: 2%;
+    padding: 30px;
+    height: 480px;
+    margin-bottom: 50px;
+}
+
 .sheet-text {
     font-family: "EB Garamond", serif;
     text-align: center;
@@ -308,21 +321,18 @@ body {
     height: 100%;
 }
 
-.sheets-div {
-    margin: 150px;
-    height: 550px;
-}
+
 
 /* each new row is 525 */
 
 #romantic-sheets {
-    height: 1600px;
+    height: 1850px;
 }
 
 #pop-sheets {
-    height: 1075px;
+    height: 1250px;
 }
 
 #collab-classical-sheets {
-    height: 1075px;
+    height: 1250px;
 }
