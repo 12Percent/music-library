@@ -358,9 +358,9 @@ body {
 
 /* each new row is 600. two rows is 1250. */
 
-#classical-sheets {
-    /* height: 1850px; */
-}
+/* #classical-sheets {
+    height: 1850px;
+} */
 
 #pop-sheets {
     height: 1250px;
