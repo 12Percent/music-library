@@ -356,12 +356,10 @@ body {
     height: 100%;
 }
 
+/* each new row is 600. two rows is 1250. */
 
-
-/* each new row is 525 */
-
-#romantic-sheets {
-    height: 1850px;
+#classical-sheets {
+    /* height: 1850px; */
 }
 
 #pop-sheets {
