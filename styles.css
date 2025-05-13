@@ -40,6 +40,7 @@ body {
     flex-wrap: wrap;
     flex: 1;
     column-gap: 10%;
+    justify-content: center;
     
 }
 
@@ -115,8 +116,7 @@ body {
     flex-wrap: wrap;
     flex: 1;
     
-    margin: .5rem 10rem;
-    padding: 50px;
+    padding: 50px 0 50px 0;
     align-items: center;
     justify-content: center;
     column-gap: 1%;
@@ -125,8 +125,8 @@ body {
 .nav-col {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+    /* flex-basis: 100%;
+    flex: 1; */
 }
 
 .nav_links a {
@@ -142,7 +142,7 @@ body {
 
 .logo img {
     margin: 10px;
-    width: 200px;
+    width: 12rem;
     border-radius: 50%;
 }
 
@@ -175,7 +175,7 @@ body {
 }
 
 .duet-box {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: "EB Garamond", serif;
     margin: 60px;
     margin-left: 10%;
@@ -242,7 +242,7 @@ body {
 }
 
 .row-collab {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -253,27 +253,22 @@ body {
 }
 
 .col-collab {
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     justify-content: center;
     height: 100%;
     flex: 46%;
 }
 
-#ksyo-nimrod {
-    height: 740px;
-}
-
 /* ---------- SOLO PAGE ---------- */
 
 .period-div {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 60px 12% 80px 12%;
     padding: 2%;
 }
 
 .horizontal-solo {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 10px 7% 0 7%;
     border: 1px solid;
 }
 
@@ -371,4 +366,53 @@ body {
     font-family: "EB Garamond", serif;  
     text-align: center;
     font-size: 100%;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+/* collab page */
+@media (max-width: 800px) {
+    .row-collab {
+        display: block;
+        padding: 15px 0 15px 0;
+    }
+    .horizontal {
+        margin: 15px 0 0 0;
+    }
+    .col-collab {
+        text-align: center;
+    }
+    .song-subtitle {
+        margin-top: 0.25rem;
+    }
+}
+
+@media (min-width: 831px) {
+    .row-collab {
+        display: flex;
+    }
+}
+
+/* solo page */
+@media (max-width: 550px) {
+    .row-solo {
+        display: block;
+        padding: 0 10px 0 10px;
+    }
+    .solo-text {
+        margin-top: 5px;
+    }
+    .sheet-text {
+        margin-bottom: 30px
+    }
+    .horizontal-solo {
+        margin-bottom: 15px;
+    }
+}
+
+/* nav bar */
+@media (max-width: 450px) {
+    .nav_links {
+        display: block;
+    }
 }
