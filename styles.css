@@ -40,6 +40,7 @@ body {
     flex-wrap: wrap;
     flex: 1;
     column-gap: 10%;
+    justify-content: center;
     
 }
 
@@ -115,8 +116,7 @@ body {
     flex-wrap: wrap;
     flex: 1;
     
-    margin: .5rem 10rem;
-    padding: 50px;
+    padding: 50px 0 50px 0;
     align-items: center;
     justify-content: center;
     column-gap: 1%;
@@ -125,8 +125,8 @@ body {
 .nav-col {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+    /* flex-basis: 100%;
+    flex: 1; */
 }
 
 .nav_links a {
@@ -142,7 +142,7 @@ body {
 
 .logo img {
     margin: 10px;
-    width: 200px;
+    width: 12rem;
     border-radius: 50%;
 }
 
@@ -152,7 +152,7 @@ body {
 
 
 
-/* text */
+/* ----- COLLAB ----- */
 
 .textbox {
     line-height: 1.6;
@@ -161,6 +161,7 @@ body {
 }
 
 .song-subtitle {
+    margin-top: 0;
     font-size: 140%;
     text-decoration-line: underline;
     text-underline-offset: 10px;
@@ -174,13 +175,12 @@ body {
 }
 
 .duet-box {
+    /* border: 2px solid red; */
     font-family: "EB Garamond", serif;
     margin: 60px;
     margin-left: 10%;
     margin-right: 10%;
     padding: 30px;
-    height: 400px;
-    
 }
 
 .list {
@@ -192,7 +192,8 @@ body {
     margin-bottom: 5px;
 }
 
-.song-title {
+.div-title {
+    /* border: 2px solid orange; */
     font-family: "EB Garamond", serif;
     font-size: 200%;
     text-align: center;
@@ -201,9 +202,9 @@ body {
 
 .horizontal {
     border: 1px solid;
-    margin: 20px;
-    margin-top: 15px;
+    margin: 15px 20px 15px 20px;
 }
+
 
 /* page header */
 .header {
@@ -222,12 +223,9 @@ body {
 }
 
 /* yt */
-.yt-embed {
-    float: left;
-    margin-right: 40px;
-    margin-left: 40px;
-    height: 300px;
-    width: 45%;
+.yt-collab {
+    width: 100%;
+    height: 16rem;
 }
 
 /* duet box styling */
@@ -243,76 +241,66 @@ body {
     background-color: #e4e4e4;
 }
 
-.inner-duetbox {
-    height: 300px;
-    padding: 20px;
+.row-collab {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding: 15px 20px 5px 20px;
+    gap: 2%;
+   
 }
 
-/* multi-video pieces */
-/* one video is 400px. each new video adds 340. */
-
-#ghibli {
-    height: 740px;
-}
-
-#shost {
-    height: 1420px;
-}
-
-#bigfish {
-    height: 740px;
-}
-
-#ksyo-nimrod {
-    height: 740px;
+.col-collab {
+    /* border: 2px solid gold; */
+    justify-content: center;
+    height: 100%;
+    flex: 46%;
 }
 
 /* ---------- SOLO PAGE ---------- */
 
 .period-div {
-    margin-top: 60px;
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-bottom: 80px;
-    padding-right: 2%;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    height: 450px;
+    /* border: 2px solid red; */
+    margin: 60px 12% 80px 12%;
+    padding: 2%;
 }
 
 .horizontal-solo {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 10px 7% 0 7%;
     border: 1px solid;
 }
 
-.row-solo-videos {
+.row-solo {
+    /* border: 2px solid orange; */
     display: flex;
     flex-wrap: wrap;
     column-gap: 2%;
-    padding: 30px;
-    padding-bottom: 15px;
-    height: 370px;
+    padding: 15px 30px 5px 30px;
+    /* height: 370px; */
 }
 
-.column {
+.col-solo {
+    /* border: 2px solid gold; */
     height: 100%;
     flex: 48%;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
-  }
+  } */
 
   .yt-solo {
+    /* border: 2px solid green; */
     width: 100%;
-    height: 70%;
+    height: 16rem;
   }
 
   .solo-text {
+    /* border: 2px solid green; */
     font-family: "EB Garamond", serif;
     text-align: center;
     font-size: 120%;
@@ -320,13 +308,13 @@ body {
     margin-top: 10px;
   }
 
-  #romantic {
+  /* #romantic {
     height: 1250px;
   }
 
   #modern {
     height: 850px;
-  }
+  } */
 
   /* each new row adds 400 */
 
@@ -348,6 +336,7 @@ body {
 }
 
 .sheet-text {
+    /* border: 2px solid green; */
     font-family: "EB Garamond", serif;
     text-align: center;
     font-size: 100%;
@@ -377,4 +366,53 @@ body {
     font-family: "EB Garamond", serif;  
     text-align: center;
     font-size: 100%;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+/* collab page */
+@media (max-width: 800px) {
+    .row-collab {
+        display: block;
+        padding: 15px 0 15px 0;
+    }
+    .horizontal {
+        margin: 15px 0 0 0;
+    }
+    .col-collab {
+        text-align: center;
+    }
+    .song-subtitle {
+        margin-top: 0.25rem;
+    }
+}
+
+@media (min-width: 831px) {
+    .row-collab {
+        display: flex;
+    }
+}
+
+/* solo page */
+@media (max-width: 550px) {
+    .row-solo {
+        display: block;
+        padding: 0 10px 0 10px;
+    }
+    .solo-text {
+        margin-top: 5px;
+    }
+    .sheet-text {
+        margin-bottom: 30px
+    }
+    .horizontal-solo {
+        margin-bottom: 15px;
+    }
+}
+
+/* nav bar */
+@media (max-width: 450px) {
+    .nav_links {
+        display: block;
+    }
 }
