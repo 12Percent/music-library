@@ -4,18 +4,6 @@ A collection of all the pieces (I have recordings of) that I've played on the pi
 
 ## Todo:
 
-- fix homepage buttons not stacking when screen gets small
-- height/width of yt embed
-- about page
-- nav bar needs to be redone
+- back button bongo cat gif?
 - change ORIGINAL: [link] depending on the video
 - for all multi-video pieces, reorder so that rehearsal comes after performance?
-- flex with video/text as columns
-- remove classical music from drive and instead link from imslp
-
-- certain width that enables columns stacking/wrapping for collab pages
-- padding for collab
-
-### ask caleb:
-
-- index.html buttons when page gets small

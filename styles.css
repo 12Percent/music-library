@@ -108,6 +108,10 @@ body {
     width: 100%;
 }
 
+.back {
+    font-size: 12px;
+}
+
 .nav_links {
     /* border: 1px solid red; */
     list-style-type: none;
@@ -213,13 +217,6 @@ body {
     margin-bottom: 10px;
     text-align: center;
     
-}
-
-.collab-redirect {
-    font-family: "EB Garamond", serif;
-    font-size: 80%;
-    margin-bottom: 30px;
-    text-align: center;
 }
 
 /* yt */
@@ -412,7 +409,20 @@ body {
 
 /* nav bar */
 @media (max-width: 450px) {
-    .nav_links {
-        display: block;
+    .logo img {
+        width: 8rem;
     }
+
+    .nav_links li {
+        font-size: 14px;
+    }
+
+    .nav_links {
+        column-gap: 0%;
+    }
+    
+    .back {
+        font-size: 10px;
+    }
+
 }
